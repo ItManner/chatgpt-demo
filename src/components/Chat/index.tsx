@@ -148,7 +148,7 @@ export default function () {
             ...k,
             {
               role: "error",
-              content: error.message.replace(/(nv2-\w{5})\w+/g, "$1")
+              content: error.message.replace(/(sk-\w{5})\w+/g, "$1")
             }
           ])
         }
