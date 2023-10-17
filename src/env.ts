@@ -18,9 +18,9 @@ export const defaultEnv = {
     continuousDialogue: true,
     model: "gpt-3.5" as SimpleModel
   },
-  CLIENT_DEFAULT_MESSAGE: `Powered by OpenAI NovaAi
-- 本网站仅作为项目演示，不提供服务，基于Nova Ai Api为基础，请自行输入Nova Key 例如："nv2-xxx"。
-- 点击每条消息前的头像，可以锁定对话，作为角色设定。[查看更多使用技巧](https://github.com/ourongxing/chatgpt-vercel#使用技巧)。
+  CLIENT_DEFAULT_MESSAGE: `Powered by OpenAI Vercel
+- 本网站由OpenAI && [陆云 - 特价香港服务器提供商](https://roovps.com) 驱动运行。
+- 点击每条消息前的头像，可以锁定对话，作为角色设定。
 - 现在支持多个对话，打开对话设置，点击新建对话。
 - 在输入框里输入 [[/]][[/]] 或者 [[空格]][[空格]] 可以切换对话，搜索历史消息。
 - [[Shift]] + [[Enter]] 换行。开头输入 [[/]] 或者 [[空格]] 搜索 Prompt 预设。[[↑]] 可编辑最近一次提问。点击顶部名称滚动到顶部，点击输入框滚动到底部。
@@ -29,7 +29,7 @@ export const defaultEnv = {
     "gpt-3.5": 16 * 1000,
     "gpt-4": 32 * 1000
   } as Record<SimpleModel, number>,
-  OPENAI_API_BASE_URL: "api.nova-oss.com/v1",
+  OPENAI_API_BASE_URL: "api.openai.com",
   OPENAI_API_KEY: "",
   TIMEOUT: 30000,
   PASSWORD: "",
