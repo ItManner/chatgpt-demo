@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@solid-primitives/event-listener':
     specifier: ^2.2.13
@@ -8962,3 +8958,7 @@ packages:
     version: 5.4.3
     dependencies:
       tslib: registry.npmmirror.com/tslib@2.3.0
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
